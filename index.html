@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Abrar Syed</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Education</a></li>
+                    <li><a href="#about">Experience</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Abrar Syed</div>
+            <div class = "hamburger-menu">
+                <div class = "hamburger-icon" onclick = "toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class = "menu-links">
+                    <li><a href="#about" onclick = "toggleMenu()">About</a></li>
+                    <li><a href="#about" onclick = "toggleMenu()">Education</a></li>
+                    <li><a href="#about" onclick = "toggleMenu()">Experience</a></li>
+                    <li><a href="#experience" onclick = "toggleMenu()">Skills/a></li>
+                    <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>  
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic-new.png" alt="Abrar Syed profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Abrar Syed</h1>
+                <p class = "section__text__p2">MS CS Student at UC Davis</p>
+                <div class = "btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Abrar_Syed_CV.pdf')">
+                    Download CV</button>
+
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick = "location.href = 'https://www.linkedin.com/in/abrarsd2k/'">
+                    <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick = "location.href = 'https://github.com/abrar-syed'">
+
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1"> Get to Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class = "text-container">
+                            <p>
+                                Hi, my name is Abrar Syed. I am currently pursuing my Master of Science in Computer Science at the University of California, Davis, with an expected graduation date of June 2024. My academic background is complemented by a rich portfolio of projects, including a budget-conscious travel recommendation system, an environmental justice mapping application, and a blockchain-based solution for crowdfunding. With proficiency in Python, C/C++, Java, SQL, and a range of web technologies like Flask, HTML, CSS, JavaScript, Solidity, and React.js, I am equipped with strong full-stack development skills. My passion for technology, problem-solving, and my experience in research and development have prepared me to make a meaningful impact in the field of software development. I am excited to apply my skills and knowledge to create innovative solutions to real-world challenges.
+                            </p> <br>
+                        </div>
+                        <div class = "main">
+                        <div class="details-container">
+                            <img src="./assets/education.png" 
+                            alt="Education"
+                            class="icon">
+                            <h1>Education</h1><br>
+                            <p> <h3>University of California, Davis</h3> Master of Science (MS) in Computer Science<br>Expected: June 2024 <br> Davis, CA</p><br><br>
+                            <p> <h3>SRM University, AP-Andhra Pradesh</h3> Bachelor of Technology(B.Tech) in Computer Science<br> June 2018 - May 2022 <br>Andhra Pradesh, India</p><br><br>
+                            <p> <h3>University of California, Berkeley</h3> Semester Abroad Program<br> Jan 2020 - May 2020<br>Berkeley, CA</p><br>
+                        </div>
+                         <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="Experience"
+                            class="icon">
+                            <h1>Experience</h1><br>
+                            <p><h3>Undegraduate Researcher</h3> SRM University, AP - Andhra Pradesh <br> June 2021 - May 2022</p><br>
+                            <ul>
+                                <li>Collaborated with a team of 3 members under my advisor Dr. Priyanka on the "Reversible Data Hiding Scheme" project for enhancing medical image security and integrity in the Internet of Medical Things (IoMT). </li><br>
+                                <li>Conducted a literature review of 7+ papers identifying challenges in existing techniques that led to the proposal of an innovative RDH scheme. </li><br>
+                                <li>Played a vital role in developing the model using MATLAB, achieving an average imperceptibility of 37dB for various test medical images and an accuracy of ~ 99% in recovering the images upon tampering.</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                        <!-- <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="Experience"
+                            class="icon">
+                            <h1> Research Experience</h1><br>
+                            <p><h3>Undegraduate Researcher</h3> SRM University, AP - Andhra Pradesh <br> June 2021 - May 2022</p><br>
+                            <ul>
+                                <li>Collaborated with a team of 3 members under my advisor Dr. Priyanka on the "Reversible Data Hiding Scheme" project for enhancing medical image security and integrity in the Internet of Medical Things (IoMT). </li>
+                                <li>Conducted a literature review of 7+ papers identifying challenges in existing techniques that led to the proposal of an innovative RDH scheme. </li>
+                                <li>Played a vital role in developing the model using MATLAB, achieving an average imperceptibility of 37dB for various test medical images and an accuracy of ~ 99% in recovering the images upon tampering.</li>
+                            </ul>
+                        </div> -->
+                        <!-- <div class = "text-container">
+                            <p>
+                                Hi, my name is Abrar Syed. I am currently pursuing my Master of Science in Computer Science at the University of California, Davis, with an expected graduation date of June 2024. My academic background is complemented by a rich portfolio of projects, including a budget-conscious travel recommendation system, an environmental justice mapping application, and a blockchain-based solution for crowdfunding. With proficiency in Python, C/C++, Java, SQL, and a range of web technologies like Flask, HTML, CSS, JavaScript, Solidity, and React.js, I am equipped with strong full-stack development skills. My passion for technology, problem-solving, and my experience in research and development have prepared me to make a meaningful impact in the field of software development. I am excited to apply my skills and knowledge to create innovative solutions to real-world challenges.
+                            </p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick = "location.href='./experience'">
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
