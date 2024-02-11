@@ -275,6 +275,11 @@ section {
     justify-content: center;
     flex-direction: column;
 }
+.about-pic {
+    border-radius: 2rem;
+    width: 52vh;
+    height: 60vh;
+}
 
 /* .about-containers, .about-details-container{
      display: flex;
@@ -284,8 +289,9 @@ section {
 .arrow {
     position:absolute;
     right: -5rem;
-    bottom: 2.5rem;
+    bottom: -22.5rem;
 }
+
 .main{
     display: flex;
     gap: 3rem;
@@ -313,5 +319,49 @@ section {
 .section-container {
     gap: 4rem;
     height: 80%;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+#experience{
+    padding-top: 450px;
+}
+
+/*SKILLS*/
+.skill {
+    background-color: #ddd; /* Light grey background */
+    border-radius: 8px;
+    overflow: hidden;
+    height: 20px; /* Height of the progress bar */
+    margin: 10px 0;
+    width: 500px;
+}
+
+.skill_level {
+    height: 100%;
+    background-color: rgb(105, 158, 238); /* Green color for the progress bar */
+    border-radius: 8px;
+    text-align: right;
+    line-height: 20px; /* Align text vertically */
+    color: black; /* Text color */
+    position: relative;
+    width:0;
+    transition: width 2s;
+}
+
+.skill_level span {
+    position: absolute;
+    right: 10px;
+    color: black;
+}
+
+.about-containers-skills{
+    display: flex;
+    flex: 1;
+    gap: 20rem;
 }
 
