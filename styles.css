@@ -289,7 +289,7 @@ section {
 .arrow {
     position:absolute;
     right: -5rem;
-    bottom: -22.5rem;
+    bottom: 20.5rem;
 }
 
 .main{
@@ -365,3 +365,26 @@ section {
     gap: 20rem;
 }
 
+#experience{
+    position: relative;
+}
+
+/*PROJECTS*/
+
+#projects {
+    padding-top: 400px;
+}
+
+.project-article-container{
+    display: flex;
+    justify-content: center;
+}
+
+.project-title{
+    text-align: center;
+}
+
+.project1-img{
+    width:60vh;
+    height:40vh;
+}
