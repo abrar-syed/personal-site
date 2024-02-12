@@ -1,12 +1,6 @@
-/* @media screen and (min-width: 1401px)  and (max-width: 1592px) {
 
-
-} */
 
 @media screen and (max-width: 1600px)  {
-    /* body{
-        width: 1200px;
-    } */
     #profile{
         height: 83vh;
         margin-bottom: 6rem;
@@ -15,9 +9,6 @@
         flex-wrap: wrap;
         margin-top: 0;
     }
-    /* .about-containers-skills{
-        flex-wrap: wrap;
-    } */
 
     #experience, .experience-details-container{
         margin-top: 2rem;
@@ -40,39 +31,23 @@
         height: 275px;
         margin: 0 auto 2rem;
 
-    }/*
-    .main, .about-containers-skills{
-        flex-wrap: wrap;
     }
-
-
-    .article-container div {
-        width:300px;
-    }*/
 
     #projects{
         padding-top: 100px;
     }
-    /* .about-pic {
-        width: 50vw;
-        height: 40vh;
-    } */
-/* 
-   #projects .about-container{
-        flex-wrap: wrap;
-    } */
 
     .text-container{
         padding-top: 160px;
     }
     
-    /*.about-containers-skills{
-        gap: 2rem;
-    }
-     */
      .about-pic{
         width: 42vh;
         height:50vh;
+    }
+
+    footer nav{
+        padding-top: 110px ;
     }
 }
 
@@ -138,6 +113,9 @@
     .about-pic{
         width: 32vh;
         height:40vh;
+    }
+    footer nav{
+        padding-top: 110px;
     }
 
     
