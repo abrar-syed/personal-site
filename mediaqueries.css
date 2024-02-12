@@ -47,8 +47,10 @@
     }
 
     footer nav{
-        padding-top: 110px ;
+        padding-top: 100px ;
+        padding-bottom: 100px;
     }
+
 }
 
 @media screen and (max-width: 1200px)  {
@@ -114,8 +116,10 @@
         width: 32vh;
         height:40vh;
     }
-    footer nav{
-        padding-top: 110px;
+
+    footer nav {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     
