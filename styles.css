@@ -411,13 +411,7 @@ section {
     background: rgb(250, 250, 250);
 }
 
-.experience-details-container{
-     /* display: flex; */
-    /*flex-direction: row;*/
-    /* gap: 2rem;  */
-    /* align-items: center;
-    justify-content: center; */
-}
+
 
 .about-container{
     display: flex;
