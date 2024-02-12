@@ -1,12 +1,79 @@
-@media screen and (max-width: 1400px)  {
+/* @media screen and (min-width: 1401px)  and (max-width: 1592px) {
+
+
+} */
+
+@media screen and (max-width: 1600px)  {
+    /* body{
+        width: 1200px;
+    } */
     #profile{
         height: 83vh;
         margin-bottom: 6rem;
     }
     .about-containers{
         flex-wrap: wrap;
+        margin-top: 0;
+    }
+    /* .about-containers-skills{
+        flex-wrap: wrap;
+    } */
+
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+        padding-top: 0;
+    }
+    #profile, .section-container{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+
+    }/*
+    .main, .about-containers-skills{
+        flex-wrap: wrap;
+    }
+
+
+    .article-container div {
+        width:300px;
+    }*/
+
+    #projects{
+        padding-top: 100px;
+    }
+    /* .about-pic {
+        width: 50vw;
+        height: 40vh;
+    } */
+/* 
+   #projects .about-container{
+        flex-wrap: wrap;
+    } */
+
+    .text-container{
+        padding-top: 160px;
     }
     
+    /*.about-containers-skills{
+        gap: 2rem;
+    }
+     */
+     .about-pic{
+        width: 42vh;
+        height:50vh;
+    }
 }
 
 @media screen and (max-width: 1200px)  {
@@ -68,11 +135,15 @@
     .about-containers-skills{
         gap: 2rem;
     }
+    .about-pic{
+        width: 32vh;
+        height:40vh;
+    }
 
     
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #contact, footer {
         height: 40vh;
     }
@@ -131,12 +202,16 @@
         font-size: 2rem;
     }
     .text-container{
-        padding-top: 340px;
+        padding-top: 110px;
         text-align: justify;
     }
 
     .about-containers-skills{
         gap: 2rem;
+    }
+
+    .text-container p{
+        padding-top: 40px;
     }
     
 }

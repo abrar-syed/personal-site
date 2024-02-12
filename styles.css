@@ -329,8 +329,8 @@ section {
 }
 
 #experience{
-    padding-top: 450px;
-    position: relative;
+    padding-top: 400px;
+    /* position: relative; */
 }
 
 /*SKILLS*/
@@ -448,7 +448,7 @@ section {
 /*CONTACT*/
 
 #contact{
-    padding-top: 300px;
+    padding-top: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
